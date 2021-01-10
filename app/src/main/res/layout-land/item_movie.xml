@@ -23,6 +23,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="355dp"
         android:layout_marginTop="-2dp"
+        android:textColor="@color/white"
         android:textSize="24dp"
         tools:text="Spider-Man: Into the Spiderverse" />
 
@@ -34,6 +35,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="@color/white"
         tools:text="Bitten by a radioactive spider in the subway, Brooklyn teenager Miles Morales suddenly develops mysterious powers that transform him into the one and only Spider-Man. When he meets Peter Parker, he soon realizes that there are many others who share his special, high-flying talents. Miles must now use his newfound skills to battle the evil Kingpin, a hulking madman who can open portals to other universes and pull different versions of Spider-Man into our world." />
 
 </RelativeLayout>
