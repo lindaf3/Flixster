@@ -18,13 +18,11 @@ An app that shows a list of movies sourced from the The Movie Database API.
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="walkthrough.gif" width=250><br>
 
 ### Notes
--Difficulties with getting back a JSONfile response from Movie Database API
--Difficulties with changing the App icon 
+-Difficulties with getting back a JSONfile response from Movie Database API \
+-Difficulties with changing the App icon \
 -For UI Improvements, added a gradient background for the app, added a new App icon, and changed text colors to be more visible
 ### Open-source libraries used
 
