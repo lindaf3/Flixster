@@ -26,7 +26,7 @@ An app that shows a list of movies sourced from the The Movie Database API.
 
 ### Notes
 
--Added some UI Elements on the New Activity Page
+-Added some UI Elements on the New Activity Page \
 -Had some challeneges with the API key
 
 ## Open-source libraries used
