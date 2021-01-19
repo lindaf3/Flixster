@@ -1,6 +1,7 @@
 *.iml
 .gradle
 /local.properties
+./res/raw/apikey.txt
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
