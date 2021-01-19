@@ -25,37 +25,17 @@ import org.parceler.Parcels;
 import okhttp3.Headers;
 
 public class DetailActivity extends YouTubeBaseActivity {
-
-    public DetailActivity() throws FileNotFoundException {
-    }
-
-    private  String getAPIKey() throws FileNotFoundException{
-//        try {
-            Scanner myReader = new Scanner(getResources().openRawResource(R.raw.apikey));
-            String key = "";
-            if(myReader.hasNextLine()) {
-                key = myReader.nextLine();
-            }
-            myReader.close();
-            return key;
-//        } catch (FileNotFoundException e) {
-//            System.out.println("An error occurred.");
-//            e.printStackTrace();
-//        }
-//        return "";
-    }
-    private static final String YOUTUBE_API_KEY = "AIzaSyAODCN09dDhFp05tb4dpoz4Lcw_pNn74rs";
-            //getAPIKey();
     public static final String VIDEO_URL = "https://api.themoviedb.org/3/movie/%d/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed";
-
-
     TextView tvTitle;
     TextView tvOverview;
     RatingBar ratingBar;
     YouTubePlayerView youTubePlayerView;
+    String YOUTUBE_API_KEY;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        YOUTUBE_API_KEY = getString(R.string.api_key);
+        Log.d("DetailedActivity", YOUTUBE_API_KEY);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         tvTitle = findViewById(R.id.tvTitle);
