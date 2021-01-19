@@ -22,7 +22,7 @@ An app that shows a list of movies sourced from the The Movie Database API.
 
 ### App Walkthough GIF
 
-<img src="walkthrough2" width=400><br>
+<img src="walkthrough2.gif" width=400><br>
 
 ### Notes
 
